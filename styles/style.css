@@ -125,6 +125,38 @@ font-size: 1rem;
 font-weight: 400;
 margin: 24px 0;
 }
+/* Facts */
+.facts{
+    margin-top: 50px;
+}
+.facts-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px 30px;
+    margin-top: 50px;
+    
+}
+.card-stat{
+color: var(--dark-02, #424242);
+font-family: Work Sans;
+font-size: 3rem;
+font-weight: 600;
+margin-top: 15px;
+margin-bottom: 5px;
+
+}
+.card-title{
+color: var(--dark-03, #727272);
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 600;
+}
 
 
 
@@ -152,6 +184,13 @@ margin: 24px 0;
     .teams-content{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-container{
+      flex-direction: column;
+      padding-left: 30px;
+      padding-right: 30px;
+      
+        
     }
 }
 
